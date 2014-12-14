@@ -1,0 +1,11 @@
+1. lsmod – List Modules that Loaded Already
+2. insmod – Insert Module into Kernel
+3. modinfo – Display Module Info
+4. rmmod – Remove Module from Kernel
+5. modprobe – Add or Remove modules from the kernel
+
+# apt-get install build-essential linux-headers-$(uname -r)
+
+# insmod hello.ko
+# rmmod hello.ko
+# dmesg | tail -1
